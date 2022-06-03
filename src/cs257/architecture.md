@@ -103,7 +103,7 @@
     - Speedup $S(n) = n E_n$
   - More generally, $S(n) =\frac{nN}{N + (n-1)}$
     - $n$ is number of stages, $N$ is instructions executed
-    - As $N \to \infty$, $S(n) \to \n$
+    - As $N \to \infty$, $S(n) \to n$
 - Complex pipelines with feedback and differently clocked stages can be difficult to design and optimise
 
   - Reservation tables are space-time diagrams that show where data can be admitted to the pipeline
@@ -236,4 +236,3 @@ Honestly just check the slides and examples for this one it makes zero sense lol
     - A buffer - the instruction window - holds instructions after decode
     - Processor can continually fetch/decode as long as window not full and execution is separate
     - Increases instructions that are available to execution unit
-  -
